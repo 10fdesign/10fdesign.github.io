@@ -80,39 +80,20 @@
 		</div>
 	</div>	
 </nav>
-<script>
-	$(document).ready( function () {
-		$(window).scroll( function (e) {
-			if ( $(this).scrollTop() > 16 ) {
-				$("body").addClass("scrolled");
-			} else {
-				$("body").removeClass("scrolled");
-			}
-		});
-	});
-</script>
     <main>
-      <style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
+      <div class="container">
+  <div class="container-404">
+    <div class="post-image mb-4 mt-4">
+	<img src="/generated/assets/images/404-800-db420df2a.jpg" srcset="/generated/assets/images/404-400-db420df2a.jpg 400w, /generated/assets/images/404-600-db420df2a.jpg 600w, /generated/assets/images/404-800-db420df2a.jpg 800w, /generated/assets/images/404-1000-db420df2a.jpg 1000w">
 
-<div class="container">
-  <h1>404</h1>
-
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
+	
 </div>
-
+    <div class="content-404">
+      <h1>Page not found</h1>
+      <p>That page doesn't seem to exist.</p>
+    </div>
+  </div>
+</div>
     </main>
     <footer>
   <div class="diamonds diamonds-left">
@@ -151,6 +132,18 @@
     <div class="diamond diamond-3"></div>
     <div class="diamond diamond-4"></div>
   </div>
+
+  <script>
+    $(document).ready( function () {
+      $(window).scroll( function (e) {
+        if ( $(this).scrollTop() > 16 ) {
+          $("body").addClass("scrolled");
+        } else {
+          $("body").removeClass("scrolled");
+        }
+      });
+    });
+  </script>
 </footer>
   </body>
 </html>

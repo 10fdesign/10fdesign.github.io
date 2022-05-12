@@ -786,7 +786,7 @@ footer .diamond {
 }
 
 main {
-  margin-top: 96px;
+  margin-top: 80px;
 }
 .home main {
     margin-top: 0;
@@ -801,3 +801,26 @@ a.logo {
 .scrolled #header .logo-overlay {
   border-radius: calc(0.75rem - var(--logo-border-size));
 }
+
+.container-404 {
+    position: relative;
+}
+
+.content-404 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 2rem;
+    z-index: 10;
+    color: white;
+}
+
+.content-404 > * {
+    margin-bottom: 0.5rem;
+}
+
+.content-404 > *:last-child {
+    margin-bottom: 0;
+}
+
+
