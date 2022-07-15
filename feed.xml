@@ -1,29 +1,184 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-05-12T14:04:42-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">The joys of position: absolute</title><link href="http://localhost:4000/posts/the-joys-of-position-absolute" rel="alternate" type="text/html" title="The joys of position: absolute" /><published>2022-05-12T12:16:31-04:00</published><updated>2022-05-12T12:16:31-04:00</updated><id>http://localhost:4000/posts/the-joys-of-position-absolute</id><content type="html" xml:base="http://localhost:4000/posts/the-joys-of-position-absolute"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-07-15T12:25:44-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Wolf Kahn Foundation</title><link href="http://localhost:4000/portfolio/wolf-kahn-foundation" rel="alternate" type="text/html" title="Wolf Kahn Foundation" /><published>2022-06-29T11:16:31-04:00</published><updated>2022-06-29T11:16:31-04:00</updated><id>http://localhost:4000/portfolio/wolf-kahn-foundation</id><content type="html" xml:base="http://localhost:4000/portfolio/wolf-kahn-foundation"><![CDATA[<p>The Wolf Kahn Foundation is Brattleboro-based organization dedicated to preserving and promoting the artistic achievements of Wolf Kahn (1927-2020).</p>
 
-<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>]]></content><author><name>Oscar Heller</name></author><category term="posts" /><summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.]]></summary></entry><entry><title type="html">Windham Regional Career Center</title><link href="http://localhost:4000/testimonials/WRCC" rel="alternate" type="text/html" title="Windham Regional Career Center" /><published>2022-05-12T12:16:31-04:00</published><updated>2022-05-12T12:16:31-04:00</updated><id>http://localhost:4000/testimonials/WRCC</id><content type="html" xml:base="http://localhost:4000/testimonials/WRCC"><![CDATA[<p>A great group to work with to create our new and improved website for the career center.  Our new site is appealing, informative and easy to follow.  Still in the tweaking stages, they are always available to assist us to make changes as needed.  Love working with 10F Design.</p>]]></content><author><name>Joyce Rathbun</name></author><category term="testimonials" /><summary type="html"><![CDATA[A great group to work with to create our new and improved website for the career center. Our new site is appealing, informative and easy to follow. Still in the tweaking stages, they are always available to assist us to make changes as needed. Love working with 10F Design.]]></summary></entry><entry><title type="html">Go Stowe VT</title><link href="http://localhost:4000/portfolio/go-stowe" rel="alternate" type="text/html" title="Go Stowe VT" /><published>2022-05-04T12:16:31-04:00</published><updated>2022-05-04T12:16:31-04:00</updated><id>http://localhost:4000/portfolio/go-stowe</id><content type="html" xml:base="http://localhost:4000/portfolio/go-stowe"><![CDATA[<h1 id="go-stowe">Go Stowe!</h1>
+<p>Through its grants program and other initiatives, the Foundation supports artists and arts organizations that educate youth and the broader public and that advance artists’ careers through exhibitions, publications, and residencies.</p>
 
-<p>Hello.</p>]]></content><author><name></name></author><category term="portfolio" /><summary type="html"><![CDATA[Go Stowe! Hello.]]></summary></entry><entry><title type="html">Tavernier Chocolates</title><link href="http://localhost:4000/portfolio/tavernier-chocolates" rel="alternate" type="text/html" title="Tavernier Chocolates" /><published>2022-04-26T12:16:31-04:00</published><updated>2022-04-26T12:16:31-04:00</updated><id>http://localhost:4000/portfolio/tavernier-chocolates</id><content type="html" xml:base="http://localhost:4000/portfolio/tavernier-chocolates"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pharetra nunc lacinia vehicula pellentesque. Nam magna nibh, consectetur rhoncus mauris nec, fermentum tincidunt ligula. Nullam eleifend rutrum orci blandit finibus. Mauris quam nunc, tempus non ante quis, commodo aliquet ipsum. Nullam elementum lacinia imperdiet. Morbi in rutrum risus. Sed mollis ultrices ex, nec finibus neque fermentum at. Aliquam efficitur sodales velit id maximus. Nam vehicula tincidunt pretium. Nulla ipsum nunc, euismod at est quis, finibus mollis erat. Aliquam ac dolor leo. Suspendisse lobortis ultricies viverra.</p>
+<picture class="tenf-portfolio-picture">
+  <source media="(min-width:1400px)" srcset="/assets/images/portfolio/wk/wk1x1320.jpg" />
+  <source media="(min-width:1200px)" srcset="/assets/images/portfolio/wk/wk1x1140.jpg" />
+  <source media="(min-width:992px)" srcset="/assets/images/portfolio/wk/wk1x960.jpg" />
+  <source media="(min-width:768px)" srcset="/assets/images/portfolio/wk/wk1x720.jpg" />
+  <source media="(min-width:576px)" srcset="/assets/images/portfolio/wk/wk1x540.jpg" />
+  <img src="/assets/images/portfolio/wk/wk1x400.jpg" />
+</picture>
 
-<div class="post-image mb-4 mt-4">
-	<img src="/generated/assets/images/tavernier-800-a6b4a4513.jpg" srcset="/generated/assets/images/tavernier-400-a6b4a4513.jpg 400w, /generated/assets/images/tavernier-600-a6b4a4513.jpg 600w, /generated/assets/images/tavernier-800-a6b4a4513.jpg 800w, /generated/assets/images/tavernier-1000-a6b4a4513.jpg 1000w" />
+<h3 id="project-goals">Project Goals</h3>
 
-	<div class="tenf-caption">Photo Caption: Test</div>
-</div>
+<p>Due to the nature of their work, the Wolf Kahn Foundation wanted an aesthetically pleasing website that would highlight aspects of the artist’s work. 10F collaborated closely with the client on developing the website’s overall look and feel through multiple stages of website mockups.</p>
 
-<p>Curabitur luctus elementum nunc sit amet fermentum. Pellentesque auctor nulla libero, vitae lacinia urna ornare sed. Maecenas viverra suscipit gravida. Aenean congue ut risus at hendrerit. Vestibulum nec convallis purus. Nulla diam mauris, bibendum nec blandit in, elementum in mi. Donec at est sed neque iaculis ultrices et condimentum sapien. Nullam est elit, dictum eget erat sed, posuere gravida quam. Sed tincidunt vulputate mauris, a mattis sem pulvinar iaculis. Donec sed erat tellus. Vestibulum at vulputate sapien, id suscipit justo. Donec nisl massa, dignissim quis nulla in, congue dapibus mauris. Morbi malesuada purus at facilisis lobortis. Suspendisse sit amet dolor bibendum, luctus diam vel, vestibulum est. Curabitur lacus felis, volutpat eget cursus id, viverra quis risus.</p>
+<picture class="tenf-portfolio-picture">
+  <source media="(min-width:1400px)" srcset="/assets/images/portfolio/wk/wk2x1320.jpg" />
+  <source media="(min-width:1200px)" srcset="/assets/images/portfolio/wk/wk2x1140.jpg" />
+  <source media="(min-width:992px)" srcset="/assets/images/portfolio/wk/wk2x960.jpg" />
+  <source media="(min-width:768px)" srcset="/assets/images/portfolio/wk/wk2x720.jpg" />
+  <source media="(min-width:576px)" srcset="/assets/images/portfolio/wk/wk2x540.jpg" />
+  <img src="/assets/images/portfolio/wk/wk2x400.jpg" />
+</picture>
 
-<p>Curabitur tincidunt, diam hendrerit porta tempus, mi ex commodo diam, in aliquet nibh tellus quis leo. Integer et semper est. Cras ac diam urna. Interdum et malesuada fames ac ante ipsum primis in faucibus. In vestibulum tellus sit amet metus suscipit fringilla. Integer quis nunc nec nulla sollicitudin sagittis quis vel nisl. Etiam consequat bibendum nisl vitae mattis. Phasellus nec vulputate sem, in placerat felis. Fusce facilisis, urna nec rhoncus rutrum, nulla est ornare velit, ac sodales nulla ipsum vitae ex. Phasellus felis leo, consequat eu egestas vel, maximus ut justo. Nulla auctor molestie mi non tincidunt. Donec rutrum porta dui et placerat. In vel hendrerit augue. Ut posuere enim tellus, at accumsan ipsum consequat non. Nunc mollis purus vel sapien finibus, a imperdiet quam lacinia. Maecenas lobortis nisl at pulvinar dapibus.</p>
+<h3 id="project-features">Project Features</h3>
+<ul>
+  <li>Designed in concert with a very detail-oriented client with strong views on aesthetics, with elements intended to highlight aspects of the artist’s work</li>
+  <li>Historical timeline on the Chronology page</li>
+  <li>We also designed their new logo</li>
+</ul>
 
-<div class="post-image mb-4 mt-4">
-	<img src="/generated/assets/images/stowe-800-4f5faca3c.jpg" srcset="/generated/assets/images/stowe-400-4f5faca3c.jpg 400w, /generated/assets/images/stowe-600-4f5faca3c.jpg 600w, /generated/assets/images/stowe-800-4f5faca3c.jpg 800w, /generated/assets/images/stowe-1000-4f5faca3c.jpg 1000w" />
+<picture class="tenf-portfolio-picture">
+  <source media="(min-width:1400px)" srcset="/assets/images/portfolio/wk/wk3x1320.jpg" />
+  <source media="(min-width:1200px)" srcset="/assets/images/portfolio/wk/wk3x1140.jpg" />
+  <source media="(min-width:992px)" srcset="/assets/images/portfolio/wk/wk3x960.jpg" />
+  <source media="(min-width:768px)" srcset="/assets/images/portfolio/wk/wk3x720.jpg" />
+  <source media="(min-width:576px)" srcset="/assets/images/portfolio/wk/wk3x540.jpg" />
+  <img src="/assets/images/portfolio/wk/wk3x400.jpg" />
+</picture>]]></content><author><name></name></author><category term="portfolio" /><summary type="html"><![CDATA[The Wolf Kahn Foundation is Brattleboro-based organization dedicated to preserving and promoting the artistic achievements of Wolf Kahn (1927-2020). Through its grants program and other initiatives, the Foundation supports artists and arts organizations that educate youth and the broader public and that advance artists’ careers through exhibitions, publications, and residencies. Project Goals Due to the nature of their work, the Wolf Kahn Foundation wanted an aesthetically pleasing website that would highlight aspects of the artist’s work. 10F collaborated closely with the client on developing the website’s overall look and feel through multiple stages of website mockups. Project Features Designed in concert with a very detail-oriented client with strong views on aesthetics, with elements intended to highlight aspects of the artist’s work Historical timeline on the Chronology page We also designed their new logo]]></summary></entry><entry><title type="html">Vermont Vacation</title><link href="http://localhost:4000/portfolio/vermont-vacations" rel="alternate" type="text/html" title="Vermont Vacation" /><published>2022-06-29T11:15:31-04:00</published><updated>2022-06-29T11:15:31-04:00</updated><id>http://localhost:4000/portfolio/vermont-vacations</id><content type="html" xml:base="http://localhost:4000/portfolio/vermont-vacations"><![CDATA[<p>Tourism is one of the largest industries in Vermont, as the state welcomes over 13 million visitors each year. The State of Vermont Chamber of Commerce’s mission is to promote Vermont’s travel, recreation, cultural and historic attractions, as well as the state’s goods and services, in a manner consistent with the values and traditions of the state for the economic benefit of all Vermonters.</p>
 
+<div class="tenf-portfolio-screenshot " style="background-image: url(' /assets/images/vermont-vacations-screenshot-1.png ');">
 	
 </div>
 
-<p>Sed ut dui elit. Donec lobortis blandit pretium. Phasellus rutrum nisl vitae lorem tincidunt, porttitor porttitor sem laoreet. Suspendisse facilisis eget lorem in lacinia. Aenean libero lectus, sodales faucibus consequat tristique, blandit ac ex. Vestibulum quis posuere neque. Praesent dictum gravida ipsum, vel vehicula nisi sollicitudin auctor. Maecenas at enim ut quam bibendum ultricies. Maecenas pellentesque, nisl at interdum faucibus, purus lorem consectetur augue, id lacinia mauris lacus vestibulum dolor. Donec volutpat turpis in semper molestie.</p>
+<h3 id="project-goals">Project Goals</h3>
 
-<p>Suspendisse vel consequat ligula. Duis odio risus, aliquet vel malesuada id, tristique in mi. Suspendisse mattis ac elit vel dictum. Donec id rutrum nisi. Fusce molestie maximus tellus vel mattis. Nunc arcu mauris, venenatis nec nulla quis, mollis tempus libero. Fusce auctor elit leo, at ornare arcu facilisis sit amet. Donec pretium tellus lacinia tellus fermentum finibus. Morbi rutrum libero id lectus imperdiet dictum. Etiam ac feugiat massa, vel semper arcu. Cras magna nisl, bibendum et euismod non, congue a urna. In ultricies sem erat, eu commodo urna porttitor ut. Aliquam risus turpis, tempor et odio sit amet, pellentesque consequat nisi.</p>]]></content><author><name></name></author><category term="portfolio" /><summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pharetra nunc lacinia vehicula pellentesque. Nam magna nibh, consectetur rhoncus mauris nec, fermentum tincidunt ligula. Nullam eleifend rutrum orci blandit finibus. Mauris quam nunc, tempus non ante quis, commodo aliquet ipsum. Nullam elementum lacinia imperdiet. Morbi in rutrum risus. Sed mollis ultrices ex, nec finibus neque fermentum at. Aliquam efficitur sodales velit id maximus. Nam vehicula tincidunt pretium. Nulla ipsum nunc, euismod at est quis, finibus mollis erat. Aliquam ac dolor leo. Suspendisse lobortis ultricies viverra. Photo Caption: Test Curabitur luctus elementum nunc sit amet fermentum. Pellentesque auctor nulla libero, vitae lacinia urna ornare sed. Maecenas viverra suscipit gravida. Aenean congue ut risus at hendrerit. Vestibulum nec convallis purus. Nulla diam mauris, bibendum nec blandit in, elementum in mi. Donec at est sed neque iaculis ultrices et condimentum sapien. Nullam est elit, dictum eget erat sed, posuere gravida quam. Sed tincidunt vulputate mauris, a mattis sem pulvinar iaculis. Donec sed erat tellus. Vestibulum at vulputate sapien, id suscipit justo. Donec nisl massa, dignissim quis nulla in, congue dapibus mauris. Morbi malesuada purus at facilisis lobortis. Suspendisse sit amet dolor bibendum, luctus diam vel, vestibulum est. Curabitur lacus felis, volutpat eget cursus id, viverra quis risus. Curabitur tincidunt, diam hendrerit porta tempus, mi ex commodo diam, in aliquet nibh tellus quis leo. Integer et semper est. Cras ac diam urna. Interdum et malesuada fames ac ante ipsum primis in faucibus. In vestibulum tellus sit amet metus suscipit fringilla. Integer quis nunc nec nulla sollicitudin sagittis quis vel nisl. Etiam consequat bibendum nisl vitae mattis. Phasellus nec vulputate sem, in placerat felis. Fusce facilisis, urna nec rhoncus rutrum, nulla est ornare velit, ac sodales nulla ipsum vitae ex. Phasellus felis leo, consequat eu egestas vel, maximus ut justo. Nulla auctor molestie mi non tincidunt. Donec rutrum porta dui et placerat. In vel hendrerit augue. Ut posuere enim tellus, at accumsan ipsum consequat non. Nunc mollis purus vel sapien finibus, a imperdiet quam lacinia. Maecenas lobortis nisl at pulvinar dapibus. Sed ut dui elit. Donec lobortis blandit pretium. Phasellus rutrum nisl vitae lorem tincidunt, porttitor porttitor sem laoreet. Suspendisse facilisis eget lorem in lacinia. Aenean libero lectus, sodales faucibus consequat tristique, blandit ac ex. Vestibulum quis posuere neque. Praesent dictum gravida ipsum, vel vehicula nisi sollicitudin auctor. Maecenas at enim ut quam bibendum ultricies. Maecenas pellentesque, nisl at interdum faucibus, purus lorem consectetur augue, id lacinia mauris lacus vestibulum dolor. Donec volutpat turpis in semper molestie. Suspendisse vel consequat ligula. Duis odio risus, aliquet vel malesuada id, tristique in mi. Suspendisse mattis ac elit vel dictum. Donec id rutrum nisi. Fusce molestie maximus tellus vel mattis. Nunc arcu mauris, venenatis nec nulla quis, mollis tempus libero. Fusce auctor elit leo, at ornare arcu facilisis sit amet. Donec pretium tellus lacinia tellus fermentum finibus. Morbi rutrum libero id lectus imperdiet dictum. Etiam ac feugiat massa, vel semper arcu. Cras magna nisl, bibendum et euismod non, congue a urna. In ultricies sem erat, eu commodo urna porttitor ut. Aliquam risus turpis, tempor et odio sit amet, pellentesque consequat nisi.]]></summary></entry><entry><title type="html">The Grafton Inn</title><link href="http://localhost:4000/portfolio/the-grafton-inn" rel="alternate" type="text/html" title="The Grafton Inn" /><published>2022-04-26T12:16:31-04:00</published><updated>2022-04-26T12:16:31-04:00</updated><id>http://localhost:4000/portfolio/the-grafton-inn</id><content type="html" xml:base="http://localhost:4000/portfolio/the-grafton-inn"><![CDATA[<h1 id="the-grafton-inn">The Grafton Inn</h1>
+<p>As Vermont’s tourism industry continued to grow, the chamber needed a website that would allow visitors to easily research and explore businesses and services across the state. They also needed an improved user portal to allow new businesses to submit and manage their own listings.</p>
 
-<p>Hey guys, welcome to the Grafton Inn.</p>
+<div class="tenf-portfolio-screenshot " style="background-image: url(' /assets/images/vermont-vacations-screenshot-2.png ');">
+	
+</div>
 
-<p>I hope you like it!</p>]]></content><author><name></name></author><category term="portfolio" /><summary type="html"><![CDATA[The Grafton Inn Hey guys, welcome to the Grafton Inn. I hope you like it!]]></summary></entry><entry><title type="html">Backroads Granola</title><link href="http://localhost:4000/testimonials/Backroads-Granola" rel="alternate" type="text/html" title="Backroads Granola" /><published>2022-04-26T12:16:31-04:00</published><updated>2022-04-26T12:16:31-04:00</updated><id>http://localhost:4000/testimonials/Backroads%20Granola</id><content type="html" xml:base="http://localhost:4000/testimonials/Backroads-Granola"><![CDATA[<p>Great team of people with a lot of expertise!</p>]]></content><author><name>Carol Cutting</name></author><category term="testimonials" /><summary type="html"><![CDATA[Great team of people with a lot of expertise!]]></summary></entry></feed>
+<h3 id="project-features">Project Features</h3>
+<ul>
+  <li>A clean modern design adapted from the existing design of parent site</li>
+  <li>Complicated filter and search functionality</li>
+  <li>Built events calendar from scratch with robust flexible scheduling options</li>
+  <li>User submission feature with client verification and user portal</li>
+  <li>Google Maps location integration</li>
+  <li>Custom Rails app, custom backend, custom media library to handle currently over 1000 listings with complex data structure</li>
+</ul>
+
+<div class="tenf-portfolio-screenshot " style="background-image: url(' /assets/images/vermont-vacations-screenshot-3.png ');">
+	
+</div>]]></content><author><name></name></author><category term="portfolio" /><summary type="html"><![CDATA[Tourism is one of the largest industries in Vermont, as the state welcomes over 13 million visitors each year. The State of Vermont Chamber of Commerce’s mission is to promote Vermont’s travel, recreation, cultural and historic attractions, as well as the state’s goods and services, in a manner consistent with the values and traditions of the state for the economic benefit of all Vermonters. Project Goals As Vermont’s tourism industry continued to grow, the chamber needed a website that would allow visitors to easily research and explore businesses and services across the state. They also needed an improved user portal to allow new businesses to submit and manage their own listings. Project Features A clean modern design adapted from the existing design of parent site Complicated filter and search functionality Built events calendar from scratch with robust flexible scheduling options User submission feature with client verification and user portal Google Maps location integration Custom Rails app, custom backend, custom media library to handle currently over 1000 listings with complex data structure]]></summary></entry><entry><title type="html">Visit Vermont</title><link href="http://localhost:4000/portfolio/visit-vermont" rel="alternate" type="text/html" title="Visit Vermont" /><published>2022-06-29T11:15:31-04:00</published><updated>2022-06-29T11:15:31-04:00</updated><id>http://localhost:4000/portfolio/visit-vermont</id><content type="html" xml:base="http://localhost:4000/portfolio/visit-vermont"><![CDATA[<p>Visitvermont.com is the official website of the Southern Vermont Deerfield Valley Chamber. They’re aim is to promote the authentic New England hospitality experiences, a relaxed lifestyle, and abundant outdoor adventures that can be found in southern Vermont.</p>
+
+<div class="tenf-portfolio-screenshot " style="background-image: url(' /assets/images/visit-vermont-screenshot-1.png ');">
+	
+</div>
+
+<h3 id="project-goals">Project Goals</h3>
+
+<p>With so many businesses and services to support in southern Vermont, the Deerfield Valley chamber needed a website that would allow visitors to easily sort through and find business listings to meet their needs.</p>
+
+<p>10F worked closely with them to analyze their existing website content and to develop a more organized and effective website structure. Additionally, we improved website usability by developing customized sorting functionality, designed to help visitors find what they are looking for.</p>
+
+<div class="tenf-portfolio-screenshot " style="background-image: url(' /assets/images/visit-vermont-screenshot-2.png ');">
+	
+</div>
+
+<h3 id="project-features">Project Features</h3>
+
+<ul>
+  <li>Animated homepage slider with video</li>
+  <li>Dynamic color palette based on season</li>
+  <li>Lots of automatic data importing from a very primitive previous CMS, requiring technical database knowledge</li>
+  <li>Events calendar and blog</li>
+</ul>
+
+<div class="tenf-portfolio-screenshot " style="background-image: url(' /assets/images/visit-vermont-screenshot-3.png ');">
+	
+</div>]]></content><author><name></name></author><category term="portfolio" /><summary type="html"><![CDATA[Visitvermont.com is the official website of the Southern Vermont Deerfield Valley Chamber. They’re aim is to promote the authentic New England hospitality experiences, a relaxed lifestyle, and abundant outdoor adventures that can be found in southern Vermont. Project Goals With so many businesses and services to support in southern Vermont, the Deerfield Valley chamber needed a website that would allow visitors to easily sort through and find business listings to meet their needs. 10F worked closely with them to analyze their existing website content and to develop a more organized and effective website structure. Additionally, we improved website usability by developing customized sorting functionality, designed to help visitors find what they are looking for. Project Features Animated homepage slider with video Dynamic color palette based on season Lots of automatic data importing from a very primitive previous CMS, requiring technical database knowledge Events calendar and blog]]></summary></entry><entry><title type="html">Windham Regional Career Center</title><link href="http://localhost:4000/portfolio/wrccvt" rel="alternate" type="text/html" title="Windham Regional Career Center" /><published>2022-06-29T11:15:31-04:00</published><updated>2022-06-29T11:15:31-04:00</updated><id>http://localhost:4000/portfolio/wrccvt</id><content type="html" xml:base="http://localhost:4000/portfolio/wrccvt"><![CDATA[<p>The Windham Regional Career Center (WRCC) is a career and technical school providing a diverse selection of career preparation programs for adult and high school students.</p>
+
+<div class="tenf-portfolio-screenshot " style="background-image: url(' /assets/images/wrccvt-screenshot-1.png ');">
+	
+</div>
+
+<h3 id="project-goals">Project Goals</h3>
+
+<p>WRCC approached 10F with the goal of consolidating and wrangling their sprawling sitemap as well as redesigning the site for improved clarity and useability.</p>
+
+<p>We took a highly collaborative approach with WRCC, guiding them through a strategic process that helped us hone in on their goals and provide them with long-term value.</p>
+
+<p>Through this strategic partnership, we were able to condense the website content and improve the information architecture to better serve WRCC students.</p>
+
+<div class="tenf-portfolio-screenshot " style="background-image: url(' /assets/images/wrccvt-screenshot-2.png ');">
+	
+</div>
+
+<h3 id="project-features">Project Features</h3>
+<ul>
+  <li>Homepage with animated features</li>
+  <li>Individual program pages redesigned for clarity and usability</li>
+  <li>Clean, modern design</li>
+  <li>Dynamic footer</li>
+</ul>
+
+<div class="tenf-portfolio-screenshot " style="background-image: url(' /assets/images/wrccvt-screenshot-3.png ');">
+	
+</div>]]></content><author><name></name></author><category term="portfolio" /><summary type="html"><![CDATA[The Windham Regional Career Center (WRCC) is a career and technical school providing a diverse selection of career preparation programs for adult and high school students. Project Goals WRCC approached 10F with the goal of consolidating and wrangling their sprawling sitemap as well as redesigning the site for improved clarity and useability. We took a highly collaborative approach with WRCC, guiding them through a strategic process that helped us hone in on their goals and provide them with long-term value. Through this strategic partnership, we were able to condense the website content and improve the information architecture to better serve WRCC students. Project Features Homepage with animated features Individual program pages redesigned for clarity and usability Clean, modern design Dynamic footer]]></summary></entry><entry><title type="html">Educate The Whole Child</title><link href="http://localhost:4000/portfolio/etwc" rel="alternate" type="text/html" title="Educate The Whole Child" /><published>2022-06-29T10:16:32-04:00</published><updated>2022-06-29T10:16:32-04:00</updated><id>http://localhost:4000/portfolio/etwc</id><content type="html" xml:base="http://localhost:4000/portfolio/etwc"><![CDATA[<p>Educate The Whole Child is a nonprofit dedicated to promoting a vision of child development and schooling that nurtures student individual talents, engages all types of intelligences, and weaves creativity and initiative into the learning process.</p>
+
+<div class="tenf-portfolio-screenshot " style="background-image: url(' /assets/images/etwc-screenshot-1.png ');">
+	
+</div>
+
+<h3 id="project-features">Project Features</h3>
+<ul>
+  <li>Clean whitespace design</li>
+  <li>eCommerce component to sell course registrations</li>
+</ul>
+
+<div class="tenf-portfolio-screenshot " style="background-image: url(' /assets/images/etwc-screenshot-2.png ');">
+	
+</div>]]></content><author><name></name></author><category term="portfolio" /><summary type="html"><![CDATA[Educate The Whole Child is a nonprofit dedicated to promoting a vision of child development and schooling that nurtures student individual talents, engages all types of intelligences, and weaves creativity and initiative into the learning process. Project Features Clean whitespace design eCommerce component to sell course registrations]]></summary></entry><entry><title type="html">Backroads Granola</title><link href="http://localhost:4000/portfolio/backroads-granola" rel="alternate" type="text/html" title="Backroads Granola" /><published>2022-06-29T10:16:31-04:00</published><updated>2022-06-29T10:16:31-04:00</updated><id>http://localhost:4000/portfolio/backroads-granola</id><content type="html" xml:base="http://localhost:4000/portfolio/backroads-granola"><![CDATA[<p>Back Roads Granola is a family-owned organic bakery, located in southern Vermont. They are dedicated to producing the most delicious and healthy granola on the planet using only premium organic, gluten-free ingredients.</p>
+
+<div class="tenf-portfolio-screenshot " style="background-image: url(' /assets/images/backroads-screenshot-1.png ');">
+	
+</div>
+
+<p>We’ve worked with them over years to make upgrades and improvements to match their business strategy.</p>
+
+<h3 id="project-features">Project Features</h3>
+<ul>
+  <li>High-traffic Woocommerce site</li>
+  <li>Ingredients page</li>
+  <li>Complex filters on the Granola shop pages</li>
+  <li>Technically: custom wholesale order form</li>
+</ul>
+
+<div class="tenf-portfolio-screenshot " style="background-image: url(' /assets/images/backroads-screenshot-2.png ');">
+	
+</div>]]></content><author><name></name></author><category term="portfolio" /><summary type="html"><![CDATA[Back Roads Granola is a family-owned organic bakery, located in southern Vermont. They are dedicated to producing the most delicious and healthy granola on the planet using only premium organic, gluten-free ingredients. We’ve worked with them over years to make upgrades and improvements to match their business strategy. Project Features High-traffic Woocommerce site Ingredients page Complex filters on the Granola shop pages Technically: custom wholesale order form]]></summary></entry><entry><title type="html">The joys of position: absolute</title><link href="http://localhost:4000/posts/the-joys-of-position-absolute" rel="alternate" type="text/html" title="The joys of position: absolute" /><published>2022-05-12T12:16:31-04:00</published><updated>2022-05-12T12:16:31-04:00</updated><id>http://localhost:4000/posts/the-joys-of-position-absolute</id><content type="html" xml:base="http://localhost:4000/posts/the-joys-of-position-absolute"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>]]></content><author><name>Oscar Heller</name></author><category term="posts" /><summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.]]></summary></entry><entry><title type="html">The joys of position: fixed</title><link href="http://localhost:4000/posts/the-joys-of-position-fixed" rel="alternate" type="text/html" title="The joys of position: fixed" /><published>2022-05-12T12:16:31-04:00</published><updated>2022-05-12T12:16:31-04:00</updated><id>http://localhost:4000/posts/the-joys-of-position-fixed</id><content type="html" xml:base="http://localhost:4000/posts/the-joys-of-position-fixed"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>]]></content><author><name>Oscar Heller</name></author><category term="posts" /><summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.]]></summary></entry><entry><title type="html">Windham Regional Career Center</title><link href="http://localhost:4000/testimonials/WRCC" rel="alternate" type="text/html" title="Windham Regional Career Center" /><published>2022-05-12T12:16:31-04:00</published><updated>2022-05-12T12:16:31-04:00</updated><id>http://localhost:4000/testimonials/WRCC</id><content type="html" xml:base="http://localhost:4000/testimonials/WRCC"><![CDATA[<p>A great group to work with to create our new and improved website for the career center.  Our new site is appealing, informative and easy to follow.  Still in the tweaking stages, they are always available to assist us to make changes as needed.  Love working with 10F Design.</p>]]></content><author><name>Joyce Rathbun</name></author><category term="testimonials" /><summary type="html"><![CDATA[A great group to work with to create our new and improved website for the career center. Our new site is appealing, informative and easy to follow. Still in the tweaking stages, they are always available to assist us to make changes as needed. Love working with 10F Design.]]></summary></entry><entry><title type="html">Go Stowe VT</title><link href="http://localhost:4000/portfolio/go-stowe" rel="alternate" type="text/html" title="Go Stowe VT" /><published>2022-05-04T12:16:31-04:00</published><updated>2022-05-04T12:16:31-04:00</updated><id>http://localhost:4000/portfolio/go-stowe</id><content type="html" xml:base="http://localhost:4000/portfolio/go-stowe"><![CDATA[<p>Established in 1945, Stowe Area Association is a member-based marketing and sales organization. Their mission is to market and sell the natural beauty of Stowe, its cultural and recreational opportunities and member businesses.</p>
+
+<div class="tenf-portfolio-screenshot " style="background-image: url(' /assets/images/stowe-screenshot-1.png ');">
+	
+</div>
+
+<h3 id="project-goals">Project Goals</h3>
+
+<p>As a directory site featuring over three hundred listings, Stowe Area Association was looking to streamline their website and increase potential Stowe visitors’ ability to use it as a research tool. We condensed their website significantly, opting to implement an advanced search function based on their listing categories.</p>
+
+<p>Since completing their website design, 10F has continued to work closely with Stowe Area Association to constantly improve their website’s features and functionality.</p>
+
+<div class="tenf-portfolio-screenshot " style="background-image: url(' /assets/images/stowe-screenshot-2.jpg ');">
+	
+</div>
+
+<h3 id="project-features">Project Features</h3>
+<ul>
+  <li>Large directory site with over 300 listings</li>
+  <li>Comprehensive content strategy to streamline their huge existing sitemap</li>
+  <li>Technical database-driven data import from previous site</li>
+  <li>Hosted, updated, and maintained through our <a href="#">managed Wordpress hosting</a></li>
+</ul>
+
+<div class="tenf-portfolio-screenshot " style="background-image: url(' /assets/images/stowe-screenshot-3.png ');">
+	
+</div>]]></content><author><name></name></author><category term="portfolio" /><summary type="html"><![CDATA[Established in 1945, Stowe Area Association is a member-based marketing and sales organization. Their mission is to market and sell the natural beauty of Stowe, its cultural and recreational opportunities and member businesses. Project Goals As a directory site featuring over three hundred listings, Stowe Area Association was looking to streamline their website and increase potential Stowe visitors’ ability to use it as a research tool. We condensed their website significantly, opting to implement an advanced search function based on their listing categories. Since completing their website design, 10F has continued to work closely with Stowe Area Association to constantly improve their website’s features and functionality. Project Features Large directory site with over 300 listings Comprehensive content strategy to streamline their huge existing sitemap Technical database-driven data import from previous site Hosted, updated, and maintained through our managed Wordpress hosting]]></summary></entry></feed>

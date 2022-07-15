@@ -46,7 +46,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 --------------------------------------------------------------*/
 /* normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
 
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&family=Kanit:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Kanit:wght@300;600&display=swap');
 
 /* Document
 	 ========================================================================== */
@@ -69,12 +69,24 @@ html {
  */
 
 body {
+  font-size: 16px;
 	margin: 0;
-	font-family: 'Kanit', sans-serif;
+	font-family: var(--sans-serif), sans-serif;
 }
 
 h1, h2, h3, h4 {
-	font-family: 'EB Garamond', serif;
+	font-family: var(--serif), serif;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--green);
+}
+
+a:hover {
+  opacity: 0.7;
+  color: var(--green);
 }
 
 .tenf-image {
@@ -93,6 +105,8 @@ h1, h2, h3, h4 {
     --light-gray: #E4E4E4;
     --blue: #3887B7;
     --shadow: 2px 2px 5px rgba(0, 0, 0, 0.35);
+    --sans-serif: "Kanit";
+    --serif: "PT Serif";
 }
 
 .tenf-flex-spacer {
@@ -102,6 +116,7 @@ h1, h2, h3, h4 {
 /* Nav Menu */
 
 .menu {
+  z-index: 20;
   position: fixed;
   height: 100%;
   width: 100%;
@@ -120,18 +135,21 @@ h1, h2, h3, h4 {
 }
 
 .menu-toggle {
-	display: block;
-  height: 100%;
+  transition: color 200ms;
   text-align: right;
+  pointer-events: all;
   display: flex;
   align-items: center;
   flex-direction: row-reverse;
-  font-size: 40px;
+  font-size: 2.5rem;
   color: var(--dark-gray);
+  z-index: 20;
+  cursor: pointer;
 }
 
 nav {
   position: fixed;
+  pointer-events: none;
   z-index: 12;
   width: 100%;
   top: 0;
@@ -141,12 +159,12 @@ nav {
 .menu-items {
   display: flex;
   flex-direction: column;
-  height: 100%;
-  width: 100%;
   align-items: center;
   justify-content: center;
   position: absolute;
-  top: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .control-checkbox {
@@ -157,28 +175,31 @@ nav {
   text-decoration: none;
   color: var(--dark-gray);
   margin: 0.2em 0;
+  font-size: 2rem;
+  font-weight: 400;
 }
 
 .menu-items a:hover, .menu-items a:focus, .menu-items a:active {
   opacity: 0.6;
 }
 
-.menu .menu-toggle {
-  height: 124px;
+.menu label.menu-toggle {
+  height: 2.5rem;
   z-index: 12;
   position: relative;
-}
-
-.menu > .container {
-  margin-top: 1em;
-  position: relative;
-}
-
-label.menu-toggle {
   cursor: pointer;
 }
 
-label.menu-toggle:hover, label.menu-toggle:active, label.menu-toggle:focus {
+.menu > .container {
+  margin-top: 1.25rem;
+  position: relative;
+}
+
+body.scrolled .menu > .container {
+  margin-top: 0.5rem;
+}
+
+label.menu-toggle:active, label.menu-toggle:focus {
   opacity: 0.5;
 }
 
@@ -201,7 +222,6 @@ body.scrolled .logo svg {
 body.scrolled .menu label.menu-toggle {
   height: 3rem;
 }
-
 
 /* Logo nonsense */
 
@@ -251,6 +271,10 @@ body.scrolled .menu label.menu-toggle {
   left: -4px;
   height: calc(100% + 8px);
   z-index: 10;
+}
+
+#header a.logo:hover {
+  opacity: 1;
 }
 
 #header a.logo:hover .logo-overlay {
@@ -303,6 +327,8 @@ button[type="submit"] {
   border-width: 1px;
   border-style: solid;
   font-size: 1rem;
+  border-radius: 10px;
+  font-weight: bold;
 }
 
 a.tenf-button:hover,
@@ -366,10 +392,12 @@ h1.homepage-header-title {
 	top: 50%;
 	transform: translateY(-50%);
 	text-align: center;
-	font-family: "EB Garamond", serif;
+	font-family: var(--serif), serif;
 	font-weight: normal;
 	color: var(--dark-gray);
 	font-size: 5em;
+  z-index: 10;
+  pointer-events: none;
 }
 .homepage-header-grid {
   width:100%;
@@ -378,10 +406,9 @@ h1.homepage-header-title {
   grid-template-columns: repeat(7, 14% );
   justify-content:space-evenly;
   align-content: space-evenly;
-  background-color: #fff;
   transform: translateY(-35%) rotate(45deg);
   position: absolute;
-  z-index: -1;
+  z-index: 5;
 }
 
 .homepage-header-grid .card {
@@ -389,12 +416,16 @@ h1.homepage-header-title {
   padding-bottom: 100%;
   position: relative;
 	opacity: 0;
-	transition: opacity 1.0s;
+	transition: all 1.0s;
   transition-timing-function: ease-out;	
   display: block;
   border: none;
   border-radius: 0;
   height: 0;
+}
+.homepage-header-grid .card:not(.hidden-card):hover {
+    opacity: 1;
+    transform: scale(1.1);
 }
 .homepage-header-grid .card-visible {
 	opacity: 0.3;
@@ -425,7 +456,6 @@ h1.homepage-header-title {
 }
 
 .homepage-header-grid .hidden-card {
-  background-color: transparent;
 }
 section.homepage-section {
   margin: 8em 0;
@@ -443,10 +473,21 @@ section.homepage-section.homepage-section-hero {
     overflow: hidden;
 }
 .homepage-section h2 {
-  font-family: 'Kanit';
+  font-family: var(--sans-serif), sans-serif;
   font-weight: 300;
   margin-bottom: 0.3em;
   font-size: 2em;
+}
+.homepage-hero-section-wrapper > section.homepage-section {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.homepage-hero-section-wrapper {
+  height: 80vh;
 }
 
 .testimonial {
@@ -455,15 +496,18 @@ section.homepage-section.homepage-section-hero {
 
 .testimonial > i {
   font-size: 4em;
+  margin-right: 1rem;
+  height: 4rem;
 }
 
 .testimonial-content {
   display: flex;
   flex-direction: column;
-  font-family: 'EB Garamond';
-  font-size: 1.5em;
+  font-family: var(--serif), serif;
+  font-size: 1.1em;
   justify-content: center;
   line-height: 1.1em;
+  padding: 0 2em;
 }
 
 .testimonials {
@@ -498,13 +542,15 @@ section.homepage-section.homepage-section-hero {
   transform: translateX(50%) rotate(45deg);
 }
 
+
 .testimonial-author {
-  line-height: 0.4em;
-  margin-top: 0em;
+  margin-bottom: 0;
+  font-size: 1.2em;
+  line-height: 0.7em;
 }
 
 .testimonial-author a {
-  font-family: 'Kanit';
+  font-family: var(--sans-serif), sans-serif;
   font-size: 0.7em;
   text-decoration: none;
   color: inherit;
@@ -532,72 +578,112 @@ section.homepage-section.homepage-section-hero {
 	align-items: center;
 }
 .slick-arrow:before {
-  font-family: 'IcoFont';
-  font-size: 3rem;
-}
-
-.slick-next:before {
-  content: '';
-}
-
-.slick-prev:before {
-  content: '';
+  font-family: sans-serif;
+  font-size: 5rem;
 }
 
 .slick-arrow {
-  width: 50px;
-  height: 50px;
+  width: 5rem;
+  height: 5rem;
 }
 
 .slick-prev {
-  left: -50px;
+  left: -5rem;
 }
 
 .slick-next {
-  right: -50px;
+  right: -5rem;
+}
+
+.slick-dots li button:before {
+  width: 1rem;
+  height: 1rem;
+  background: white;
+  content: '';
+  transform: translateX(-50%) rotate(45deg);
+  left: 50%;
+}
+
+.slick-dots li {
+  width: 1rem;
+  height: 1rem;
 }
 
 
+.slick-loading .slick-list
+{
+  background: none;
+}
+
 section.homepage-section {
   margin: 2em 0 6em 0;
-  letter-spacing: 1px;
   font-size: 1.2em;
 }
 
 h1.post-title {
-  font-family: 'Kanit';
-  font-size: 2.5em;
+  font-size: 3em;
+  line-height: 0.9em;  
+}
+.post h2.post-subtitle {
+	font-weight: bold;
+	margin-bottom: 1em;
+	font-family: var(--sans-serif), sans-serif;
+	color: var(--green);
+  font-size: 1.5em;
+  margin-right: 0;
+}
+
+h2.post-title {
+  font-family: var(--sans-serif), sans-serif;
   letter-spacing: -1px;
   line-height: 1em;
 }
 
-h4.post-author {
-  font-family: 'Kanit';
+h5.post-author {
+  font-family: var(--sans-serif), sans-serif;
   color: var(--red);
   font-weight: normal;
-  font-size: 1.5em;
   letter-spacing: -1px;
 }
 
 .post-content {
-  font-family: 'EB Garamond';
+  font-family: var(--serif), serif;
 }
 
 section.homepage-section.homepage-section-blog {
   margin: 6em 0;
 }
 
+.homepage-section-blog .col-md-6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .post-preview-image {
-  height: 100%;
+  height: unset;
+  width: 100%;
+  padding-bottom: 66%;
+  position: relative;
 }
 
 .post-preview-image > img {
+  width: 100%;
   height: 100%;
+  position: absolute;
   object-fit: cover;
 }
 
 a.tenf-button {
   padding: 0.5em 4em;
+  display: inline-flex;
+  align-items: center;
+}
+
+a.tenf-button.tenf-button-secondary {
+  background: var(--light-gray);
+  color: var(--dark-gray);
+  border-color: var(--light-gray);
 }
 
 
@@ -652,7 +738,7 @@ footer a:focus {
   display: flex;
   align-items: center;
   flex-direction: column;
-  font-family: 'Kanit', sans-serif !important;
+  font-family: var(--sans-serif), sans-serif !important;
 }
 
 footer {
@@ -669,6 +755,8 @@ footer {
 
 .footer-menu {
   color: #848484;
+  z-index: 10;
+  position: relative;
 }
 
 footer a {
@@ -724,7 +812,10 @@ a.tenf-portfolio-tile-content:hover {
     text-decoration: none;
 }
 
-.tenf-portfolio-tile:nth-of-type(1n) .tenf-portfolio-tile-image {
+.tenf-portfolio-tile-image {
+    padding-bottom: 40%;
+}
+/*.tenf-portfolio-tile:nth-of-type(1n) .tenf-portfolio-tile-image {
     padding-bottom: 40%;
 }
 
@@ -737,7 +828,7 @@ a.tenf-portfolio-tile-content:hover {
 .tenf-portfolio-tile:nth-of-type(5n) .tenf-portfolio-tile-image,
 .tenf-portfolio-tile:nth-of-type(6n) .tenf-portfolio-tile-image {
     padding-bottom: 90%;
-}
+}*/
 
 .tenf-portfolio-tile-image {
     position: relative;
@@ -754,7 +845,10 @@ a.tenf-portfolio-tile-content:hover {
 }
 
 .tenf-caption {
+    max-width: 30%;
+    line-height: 1.1;
     position: absolute;
+    box-shadow: 1px 1px 2px rgb(0 0 0 / 35%), 0 0 2px rgb(0 0 0 / 15%);
     bottom: 0.5em;
     right: 0.5em;
     text-align: right;
@@ -765,12 +859,13 @@ a.tenf-portfolio-tile-content:hover {
 .tenf-portfolio-tile h1 {
     margin: 0.5em 0 0;
     line-height: 1;
+    font-size: 1.75rem;
 }
 
 .tenf-portfolio-tile h2 {
     margin: 0.5em 0 0;
     line-height: 1;
-    font-family: Kanit, sans-serif;
+    font-family: var(--sans-serif), sans-serif;
     font-size: 1.2em;
     text-transform: uppercase;
     font-weight: 600;
@@ -863,6 +958,9 @@ a.logo {
     position: relative;
     display: inline-block;
 }
+.simple-header a.logo {
+    pointer-events: all;
+}
 .scrolled #header .logo-bg {
   border-radius: 0.75rem;
 }
@@ -892,11 +990,11 @@ a.logo {
 }
 
 p {
-    font-family: 'EB Garamond', serif;
+    font-family: var(--serif), serif;
     line-height: 1.4;
     color: black;
     font-weight: 400;
-    font-size: 1.25rem;
+    font-size: 1rem;
 }
 
 .testimonial-content p {
@@ -920,5 +1018,154 @@ p {
 
 .blog-header .container .row > *:last-child {
     margin-bottom: 0;
+}
+
+.menu .logo {
+    margin-top: -0.75rem;
+}
+
+body.scrolled .menu .logo {
+    margin-top: 0;
+}
+
+.tenf-portfolio-screenshot {
+  width: 100%;
+  position: relative;
+  padding-bottom: 50%;
+  background-size: cover;
+  margin: 3em 0;
+  background-repeat: no-repeat;
+  box-shadow: 2px 2px 15px rgb(0 0 0 / 15%), 0 0 30px rgb(0 0 0 / 5%);
+}
+
+.post ul {
+  margin-left: 2em;
+  font-family: var(--serif), serif;
+  font-size: 1rem;
+}
+
+.portfolio-link {
+  align-items: flex-start;
+	display: flex;
+  margin-bottom: 2em;
+}
+
+a.post-link {
+  padding: 0.3em 1.6em;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 5px;
+  white-space: nowrap;
+}
+
+a.post-link {
+    color: var(--gray);
+    text-decoration: none;
+    transition: color 200ms;
+}
+
+a.post-link:hover {
+    color: var(--dark-gray);
+}
+
+.menu-toggle:hover {
+  color: var(--red);
+}
+
+.homepage-section:not(:first-child) {
+  z-index: 10;
+  position: relative;
+}
+
+.testimonial-author {
+  margin-left: 2em;
+  position: relative;
+}
+
+.testimonial-author:before {
+  content: '';
+  position: absolute;
+  top: calc(50% - 1px);
+  left: -2em;
+  width: 1em;
+  border-bottom: 4px solid white;
+  margin: 0 0.5em;
+  opacity: 0.5;
+}
+
+.testimonial-content p {
+	line-height: normal;
+	font-size:  1.2em;
+}
+
+i.tenf-quote-left:before {
+  content: '‟';
+  font-family: sans-serif;
+  font-size: 4em;
+  line-height: 0.8em;
+  font-style: normal;
+}
+
+.tenf-icon-plus {
+	margin-left: 0.5em;
+}
+.tenf-icon-plus:before {
+  content: "+";
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+  line-height: 1em;
+}
+
+.diamond {
+  pointer-events: none;
+}
+
+.diamonds {
+  pointer-events: none;
+}
+
+.post h3 {
+  font-family: 'Kanit';
+  font-weight: bold;
+  color: #404040;
+}
+
+.tenf-portfolio-picture img {
+  box-shadow: 0 0 20px rgb(0 0 0 / 0.2);
+  width: 100%;
+  margin: 3em 0;
+}
+
+.next-prev-nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.next-prev-nav > .next:after {
+  content: '››';
+  margin-left: 0.5em;
+}
+
+.next-prev-nav > .prev:before {
+  content: '‹‹';
+  margin-right: 0.5em;
+}
+
+.slick-prev, .slick-next {
+    color: white !important;
+    line-height: 1;
+    font-size: 5rem;
+    opacity: 0.5;
+    transition: opacity 200ms;
+}
+
+.slick-prev:hover, .slick-next:hover {
+  color: white;
+  opacity: 1;
+}
+
+.slick-prev:before, .slick-next:before {
+    content: '';
 }
 
