@@ -423,7 +423,7 @@ h1.homepage-header-title {
   border-radius: 0;
   height: 0;
 }
-.homepage-header-grid .card:not(.hidden-card):hover {
+.homepage-header-grid .card.card-visible:hover {
     opacity: 0.6;
     transform: scale(1.05);
 }
